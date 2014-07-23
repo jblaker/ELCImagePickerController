@@ -54,6 +54,11 @@
  */
 @property (nonatomic, assign) BOOL returnsOriginalImage;
 
+/**
+ Custom message to display when maximum number of images has been selected in the picker
+ */
+@property (nonatomic, strong) NSString *customMaximumNumberOfItemsSelectedMessage;
+
 - (id)initImagePicker;
 - (void)cancelImagePicker;
 
